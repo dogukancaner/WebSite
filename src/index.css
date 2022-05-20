@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+  scroll-margin-top: 50px;
+}
+
+.gradient-box {
+  padding: 18px;
+  border-radius: 1px;
+  box-shadow: inset 0 0 12px 12px #0a192f, inset 0 0 3px 2px #0a192f;
+  background: linear-gradient(to right, violet, pink);
+}
+
+/* .jot-form {
+  formFooter-logo {
+    display: none;
+  
+  }
+} */
+
+@layer base {
+  body {
+    background-color: #0a192f;
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
