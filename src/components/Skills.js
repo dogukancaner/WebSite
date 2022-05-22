@@ -20,9 +20,9 @@ const Skills = () => {
               Yeteneklerim
             </p>
             <p className="py-4">
-              Şu anda JavaScrip, React ve TailwindCSS ile çalışıyorum. Aşağıdaki
-              teknolojiler hakkında bilgi sahibiyim: HTML, CSS, JavaScript, C#,
-              React, GitHub, TailwindCSS.
+              Şu anda JavaScript, React ve TailwindCSS ile çalışıyorum.
+              Aşağıdaki teknolojiler hakkında bilgi sahibiyim: HTML, CSS,
+              JavaScript, C#, React, GitHub, TailwindCSS.
             </p>
           </div>
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">

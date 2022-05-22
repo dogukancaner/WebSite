@@ -1,6 +1,7 @@
 import React from "react";
 // import { HiOutlineMailOpen } from "react-icons/hi";
 import JotformEmbed from "react-jotform-embed";
+import { useEffect } from "react";
 
 const Contact = () => {
   return (
