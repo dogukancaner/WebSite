@@ -6,7 +6,7 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
-import CSharp from "../assets/csharp.png";
+import Git from "../assets/git.png";
 import Scss from "../assets/scss.png";
 
 const Skills = () => {
@@ -22,7 +22,7 @@ const Skills = () => {
             <p className="py-4">
               Şu anda JavaScript, React ve TailwindCSS ile çalışıyorum.
               Aşağıdaki teknolojiler hakkında bilgi sahibiyim: HTML, CSS,
-              JavaScript, C#, React, GitHub, TailwindCSS.
+              TailwindCSS, JavaScript, React, Git, Github.
             </p>
           </div>
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
@@ -47,10 +47,6 @@ const Skills = () => {
               <p className="py-2">JavaScript</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4">
-              <img className="w-20 mx-auto" src={CSharp} alt="CSharp icon" />
-              <p className="py-2">C#</p>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4">
               <img
                 className="w-20 mx-auto"
                 src={Tailwind}
@@ -61,6 +57,10 @@ const Skills = () => {
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4">
               <img className="w-20 mx-auto" src={Scss} alt="Scss icon" />
               <p className="py-5">Scss</p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4">
+              <img className="w-20 mx-auto" src={Git} alt="CSharp icon" />
+              <p className="py-2">Git</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4">
               <img className="w-20 mx-auto" src={GitHub} alt="Github icon" />
